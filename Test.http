@@ -1,0 +1,2 @@
+GET http://localhost:8080/calculate?operand1=20&operator=%2b&operand2=10
+//operaor에서 +는 오류가 뜬다.url에서 중요한 문법적 의미를 가지고 있으므로 인코딩한 %2b로 써야한다.
